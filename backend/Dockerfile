@@ -1,8 +1,8 @@
-FROM ibm-semeru-runtimes:open-17-jre-focal
+FROM gradle:8.6.0-jdk17 AS build
+WORKDIR /app
+COPY . .
+RUN gradle jar --no-daemon
 
-ENV PORT 8080
-EXPOSE 8080
-
-ADD target/secret-hitler-online.jar /secret-hitler-online.jar
-
-CMD java -jar /secret-hitler-online.jar
+FROM eclipse-temurin:17-jre-jammy
+COPY --from=build /app/build/libs/secret-hitler-online.jar /secret-hitler-online.jar
+CMD ["java", "-jar", "/secret-hitler-online.jar"]
