@@ -22,38 +22,38 @@ const LiberalImages = [
   RoleLiberal6,
 ];
 const LiberalImagesAltText = [
-  "Your secret role is LIBERAL. The card shows a bespectacled man with a pipe giving a side-eye.",
-  "Your secret role is LIBERAL. The card shows an elegant woman with curly hair and pearls.",
-  "Your secret role is LIBERAL. The card shows a round-chinned man in a pilgrim-esque hat gazing quizzically at the camera.",
-  "Your secret role is LIBERAL. The card shows a sharp-suited man sporting a fedora and a neatly-trimmed mustache.",
-  "Your secret role is LIBERAL. The card shows an elderly woman with comically large glasses holding a chihuahua.",
-  "Your secret role is LIBERAL. The card shows a woman with a large sun hat and shoulder-length bob smirking.",
+  "Sənin gizli rolun LIBERALdır. Kartda eynəkli və çubuqlu bir kişinin yan baxışla baxdığı təsvir olunub.",
+  "Sənin gizli rolun LIBERALdır. Kartda qıvırcıq saçlı və mirvarilər taxmış zərif bir qadın təsvir olunub.",
+  "Sənin gizli rolun LIBERALdır. Kartda, zəvvar papağına bənzər bir papaq taxmış, yumru çənəli bir kişinin kameraya maraq və təəccüblə baxdığı təsvir olunub.",
+  "Sənin gizli rolun LIBERALdır. Kartda səliqəli kostyum geyinmiş, fedora şlyapalı və səliqəli kəsilmiş bığlı bir kişi təsvir olunub.",
+  "Sənin gizli rolun LIBERALdır. Kartda əlində çivaua saxlayan, gülünc dərəcədə böyük eynəkli yaşlı bir qadın təsvir olunub.",
+  "Sənin gizli rolun LIBERALdır. Kartda iri günəş papağı və çiyninə qədər uzanan bob olan qadın gülümsəyir.",
 ];
 const HitlerImages = [RoleHitler];
 const HitlerImagesAltText = [
-  "Your secret role is HITLER. The card shows a crocodile in a suit and WW2 German military hat glaring at the camera.",
+  "Sənin gizli rolun HITLERdir. Kartda kostyum və WW2 dövrünə aid alman hərbi papağı geyinmiş, kameraya sərt baxışlarla baxan bir timsah təsvir olunub.",
 ];
 const FascistImages = [RoleFascist1, RoleFascist2, RoleFascist3];
 const FascistImagesAltText = [
-  "Your secret role is FASCIST. The card shows a snake emerging from a suit covered in military medals.",
-  "Your secret role is FASCIST. The card shows an iguana in a German military hat and suit with fangs bared.",
-  "Your secret role is FASCIST. The card shows an iguana in a German military hat and suit with fangs bared.",
+  "Sənin gizli rolun FAŞISTdir. Kartda hərbi medallarla örtülmüş bir kostyumdan çıxan ilan təsvir olunub.",
+  "Sənin gizli rolun FAŞISTdir. Kartda alman hərbi papağında və dişləri açıq kostyumda olan iquana göstərilir.",
+  "Sənin gizli rolun FAŞISTdir. Kartda alman hərbi papağında və dişləri açıq kostyumda olan iquana göstərilir.",
 ];
 
 const LiberalText = [
-  "You win if the board fills with liberal policies, or if Hitler is executed.",
-  "You lose if the board fills with fascist policies, or if Hitler is elected chancellor after 3 fascist policies are passed.",
-  "Keep your eyes open and look for suspicious actions. Suss out Hitler, and remember that anyone might be lying!",
+  "Əgər idarə heyəti liberal siyasətlə dolursa və ya Hitler edam edilərsə, siz qalib gəlirsiniz.",
+  "İdarə heyəti faşist siyasətləri ilə dolsa və ya 3 faşist siyasəti keçdikdən sonra Hitler kansler seçilərsə itirərsiniz.",
+  "Diqqətli olun və şübhəli hərəkətləri müşahidə edin. Hitleri aşkar etməyə çalışın və unutmayın ki, hər kəs yalan danışa bilər!",
 ];
 const FascistText = [
-  "You win if Hitler is successfully elected chancellor once 3 fascist policies are on the board, or if the board fills with fascist policies.",
-  "You lose if the board fills with liberal policies or if Hitler is executed.",
-  "Keep suspicion off of Hitler and look for ways to throw confusion into the game.",
+  "Əgər lövhədə 3 faşist qanunu yerləşdirildikdən sonra Hitler kansler seçilərsə və ya lövhə tamamilə faşist qanunları ilə dolarsa, siz qalib gəlirsiniz.",
+  "Lövhə liberal qanunlarla dolsa və ya Hitler edam edilərsə, siz uduzacaqsınız.",
+  "Şübhələri Hitlerin üzərindən yayındırın və oyuna qarışıqlıq qatmağın yollarını axtarın.",
 ];
 const HitlerText = [
-  "You win if you are successfully elected chancellor once 3 fascist policies are on the board, or if the board fills with fascist policies.",
-  "You lose if the board fills with liberal policies or if you are executed.",
-  "Try to gain trust and rely on the other fascists to open opportunities for you.",
+  "Əgər lövhədə 3 faşist qanunu seçildikdən sonra kansler seçilsən və ya lövhə tamamilə faşist qanunlar ilə dolsa, qalib gəlirsiniz.",
+  "Əgər lövhə liberal qanunlarla dolarsa və ya edam olunsan, uduzursunuz.",
+  "Etibar qazanmağa çalış və sənə fürsətlər yaratmaq üçün digər faşistlərə etibar edin.",
 ];
 
 type RoleAlertProps = {

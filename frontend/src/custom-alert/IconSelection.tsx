@@ -231,7 +231,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
         renderHeader={() => {
           return (
             <>
-              <p>Choose a look, then press confirm.</p>
+              <p>Bir görünüş seçin, sonra təsdiq edin.</p>
               {this.getIconButtonHML(headerPortraits)}
             </>
           );
