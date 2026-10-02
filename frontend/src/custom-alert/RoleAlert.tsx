@@ -41,8 +41,8 @@ const FascistImagesAltText = [
 ];
 
 const LiberalText = [
-  "Əgər idarə heyəti liberal siyasətlə dolursa və ya Hitler edam edilərsə, siz qalib gəlirsiniz.",
-  "İdarə heyəti faşist siyasətləri ilə dolsa və ya 3 faşist siyasəti keçdikdən sonra Hitler kansler seçilərsə itirərsiniz.",
+  "Əgər lövhə liberal qanunlarla dolarsa və ya Hitler edam edilərsə, siz qalib gəlirsiniz.",
+  "Lövhə faşist qanunlar ilə dolsa və ya 3 faşist qanunu seçildikdən sonra Hitler kansler seçilərsə məğlub olacaqsınız.",
   "Diqqətli olun və şübhəli hərəkətləri müşahidə edin. Hitleri aşkar etməyə çalışın və unutmayın ki, hər kəs yalan danışa bilər!",
 ];
 const FascistText = [
