@@ -35,7 +35,7 @@ const HitlerImagesAltText = [
 ];
 const FascistImages = [RoleFascist1, RoleFascist2, RoleFascist3];
 const FascistImagesAltText = [
-  "Sənin gizli rolun FAŞISTdir. Kartda hərbi medallarla örtülmüş bir kostyumdan çıxan ilan təsvir olunub.",
+  "Sənin gizli rolun FAŞIST dir. Kartda hərbi medallarla örtülmüş bir kostyumdan çıxan ilan təsvir olunub.",
   "Sənin gizli rolun FAŞISTdir. Kartda alman hərbi papağında və dişləri açıq kostyumda olan iquana göstərilir.",
   "Sənin gizli rolun FAŞISTdir. Kartda alman hərbi papağında və dişləri açıq kostyumda olan iquana göstərilir.",
 ];
@@ -46,14 +46,14 @@ const LiberalText = [
   "Diqqətli olun və şübhəli hərəkətləri müşahidə edin. Hitleri aşkar etməyə çalışın və unutmayın ki, hər kəs yalan danışa bilər!",
 ];
 const FascistText = [
-  "Əgər lövhədə 3 faşist qanunu yerləşdirildikdən sonra Hitler kansler seçilərsə və ya lövhə tamamilə faşist qanunları ilə dolarsa, siz qalib gəlirsiniz.",
-  "Lövhə liberal qanunlarla dolsa və ya Hitler edam edilərsə, siz uduzacaqsınız.",
+  "Əgər lövhədə 3 faşist qanunu yerləşdirildikdən sonra Hitler kansler seçilərsə və ya lövhə tamamilə faşist qanunları ilə dolarsa, qalib gəlirsiniz.",
+  "Lövhə liberal qanunlarla dolsa və ya Hitler edam edilərsə, uduzacaqsınız.",
   "Şübhələri Hitlerin üzərindən yayındırın və oyuna qarışıqlıq qatmağın yollarını axtarın.",
 ];
 const HitlerText = [
   "Əgər lövhədə 3 faşist qanunu seçildikdən sonra kansler seçilsən və ya lövhə tamamilə faşist qanunlar ilə dolsa, qalib gəlirsiniz.",
   "Əgər lövhə liberal qanunlarla dolarsa və ya edam olunsan, uduzursunuz.",
-  "Etibar qazanmağa çalış və sənə fürsətlər yaratmaq üçün digər faşistlərə etibar edin.",
+  "Etibar qazanmağa çalış və sənə fürsətlər yaratmaları üçün digər faşistlərə etibar et.",
 ];
 
 type RoleAlertProps = {
