@@ -65,7 +65,7 @@ class ChancellorLegislativePrompt extends Component<
     } else {
       // veto power is not activated
       this.props.showError(
-        "Veto power is unlocked when there are 5 fascist policies."
+        "Veto gücü 5 faşist qanunu seçildikdə aktiv olacaq."
       );
     }
   }
@@ -77,14 +77,13 @@ class ChancellorLegislativePrompt extends Component<
       <ButtonPrompt
         label={"LEGISLATIVE SESSION"}
         headerText={
-          "Tətbiq etmək üçün bir qanun seçin. Qalan qanunlar ləğv ediləcək."
+          "Tətbiq etmək üçün bir qanun seçin. Seçilməmiş qanunlar ləğv ediləcək."
         }
         renderHeader={() => {
           return (
             <>
               <p className={"left-align"}>
-                Choose a policy to enact. The remaining policy will be
-                discarded.
+                Tətbiq etmək üçün bir qanun seçin. Seçilməmiş qanunlar ləğv ediləcək.
               </p>
               {props.fascistPolicies === 5 && (
                 <p className={"left-align highlight"}>
