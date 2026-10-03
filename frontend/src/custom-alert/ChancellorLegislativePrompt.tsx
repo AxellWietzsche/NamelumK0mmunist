@@ -77,7 +77,7 @@ class ChancellorLegislativePrompt extends Component<
       <ButtonPrompt
         label={"LEGISLATIVE SESSION"}
         headerText={
-          "Choose a policy to enact. The remaining policy will be discarded."
+          "Tətbiq etmək üçün bir qanun seçin. Qalan qanunlar ləğv ediləcək."
         }
         renderHeader={() => {
           return (
@@ -88,8 +88,7 @@ class ChancellorLegislativePrompt extends Component<
               </p>
               {props.fascistPolicies === 5 && (
                 <p className={"left-align highlight"}>
-                  Veto power unlocked: If you choose to veto and the president
-                  agrees to the veto, the agenda will be discarded.
+                  Veto gücü aktivdir: Veto verməyi seçsəniz və prezident vetonu təsdiqləsə,agenda ləğv ediləcək.
                 </p>
               )}
             </>
