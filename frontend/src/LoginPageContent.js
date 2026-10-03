@@ -44,27 +44,6 @@ class LoginPageContent extends Component {
                     <div id={"login-page-gif-container"}>
                         {items}
                     </div>
-                    <div id={"login-page-description-text-container"}>
-                        <p id={"login-page-description-text"}>
-                            <br/>
-                            The project is open-source, and is licensed under CC BY-NC-SA 4.0.
-                            You can read more about the project <a
-                                href={"https://github.com/ShrimpCryptid/Secret-Hitler-Online/"}
-                                rel="noreferrer"
-                                target={"_blank"} onClick={this.onClickAbout}>
-                                    on GitHub
-                            </a>!
-                            <br/><br/>
-                            Adapted from the original <a href={"https://secrethitler.com"} target={"_blank"} rel="noreferrer" onClick={this.onClickGameWebsite}>
-                                Secret Hitler
-                            </a> board game by Goat, Wolf, & Cabbage (© 2016-2020). Developed by ShrimpCryptid (© 2020-2023).
-                            <br/><br/>
-                            Found a bug or want to leave a comment? Report bugs on the <a href={"https://github.com/ShrimpCryptid/Secret-Hitler-Online/issues"}
-                                                                                             rel="noreferrer"
-                                                                                             target={"_blank"}>Issues page</a>.
-                        </p>
-                        <br/>
-                    </div>
 
                 </div>
             </>

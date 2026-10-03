@@ -713,12 +713,12 @@ class App extends Component<{}, AppState> {
             onClick={this.onClickJoin}
             disabled={!this.shouldJoinButtonBeEnabled()}
           >
-            JOIN
+            QOŞUL
           </button>
         </div>
         <br />
         <div>
-          <h2>CREATE A LOBBY</h2>
+          <h2>LOBBİ YARADIN</h2>
           <MaxLengthTextField
             label={"Your Name"}
             onChange={this.updateCreateLobbyName}
@@ -730,7 +730,7 @@ class App extends Component<{}, AppState> {
             onClick={this.onClickCreateLobby}
             disabled={!this.shouldCreateLobbyButtonBeEnabled()}
           >
-            CREATE LOBBY
+            LOBBİ YARAT
           </button>
         </div>
         <AnnouncementBox>
@@ -887,7 +887,7 @@ class App extends Component<{}, AppState> {
           style={{ textAlign: "left", marginLeft: "20px", marginRight: "20px" }}
         >
           <div style={{ display: "flex", flexDirection: "row" }}>
-            <h2>LOBBY CODE: </h2>
+            <h2>LOBBİ KODU: </h2>
             <h2
               style={{ marginLeft: "5px", color: "var(--textColorHighlight)" }}
             >
