@@ -733,6 +733,29 @@ class App extends Component<{}, AppState> {
             CREATE LOBBY
           </button>
         </div>
+        
+        <AnnouncementBox>
+          <h2>Announcing: BOTS!</h2>
+          <p>
+            You can now start games with only 1-4 players; extra spots will be
+            filled by bots.
+          </p>
+          <p>
+            Bots are still in beta, so{" "}
+            <a
+              href={
+                "https://github.com/ShrimpCryptid/Secret-Hitler-Online/issues/44"
+              }
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              leave feedback on GitHub!
+            </a>
+          </p>
+          <p style={{ fontStyle: "italic", fontSize: "calc(8px + 1vmin)" }}>
+            (Please be nice, they are trying their best.)
+          </p>
+        </AnnouncementBox>
 
         <br />
         <LoginPageContent />
