@@ -112,13 +112,13 @@ class VotingPrompt extends Component<VotingPromptProps, VotingPromptState> {
 
               <p className="left-align">
                 {presidentName +
-                  " has nominated " +
+                  " " +
                   chancellorName +
-                  " as chancellor."}
+                  "i kansler vəzifəsinə namizəd göstərib."}
               </p>
               <p className="left-align">
                 {
-                  "Vote on whether you want this government to proceed; The vote passes if over 50% of the votes are yes."
+                  "Bu hökumətin fəaliyyətini davam etdirməsini istəyib-istəmədiyinizə səs verin; səslərin 50%-dən çoxubəli olarsa, qərar qəbul edilmiş sayılır."
                 }
               </p>
 
@@ -134,7 +134,7 @@ class VotingPrompt extends Component<VotingPromptProps, VotingPromptState> {
               {this.props.gameState.electionTracker === 2 && (
                 <p className="highlight left-align">
                   {
-                    "If this vote fails, the next policy in the draw deck will be immediately enacted."
+                    "Əgər bu səsvermə uğursuz olarsa, çəkilmə dəstəsindəki növbəti qanun dərhal qüvvəyə minəcək."
                   }
                 </p>
               )}
