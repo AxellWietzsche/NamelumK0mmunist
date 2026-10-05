@@ -679,7 +679,7 @@ class App extends Component<{}, AppState> {
   renderLoginPage() {
     return (
       <div className="App">
-        <header className="App-header">SECRET-HITLER.ONLINE</header>
+        <header className="App-header">Axell's Naməlum Ğommunist</header>
         <br />
         <div style={{ textAlign: "center" }}>
           {/** TODO: Add reusable announcement component. 
@@ -877,7 +877,7 @@ class App extends Component<{}, AppState> {
       this.state.usernames[0] === this.state.name;
     return (
       <div className="App">
-        <header className="App-header">SECRET-HITLER.ONLINE</header>
+        <header className="App-header">Axell's Naməlum Ğommunist</header>
 
         <CustomAlert show={this.state.showAlert}>
           {this.state.alertContent}
@@ -909,7 +909,7 @@ class App extends Component<{}, AppState> {
             <textarea
               id="linkText"
               readOnly={true}
-              value={"https://secret-hitler.online/?lobby=" + this.state.lobby}
+              value={"https://namelumkommunist.netlify.app/?lobby=" + this.state.lobby}
             />
             <button onClick={this.onClickCopy}>COPY</button>
           </div>
@@ -1701,7 +1701,7 @@ class App extends Component<{}, AppState> {
   renderGamePage() {
     return (
       <div className="App" style={{ textAlign: "center" }}>
-        <header className="App-header">SECRET-HITLER.ONLINE</header>
+        <header className="App-header">Axell's Naməlum Ğommunist</header>
 
         <CustomAlert show={this.state.showAlert}>
           {this.state.alertContent}
