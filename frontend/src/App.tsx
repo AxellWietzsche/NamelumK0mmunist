@@ -628,7 +628,7 @@ class App extends Component<{}, AppState> {
    * Attempts to connect to the server and create a new lobby, and then opens a connection to the lobby.
    */
   onClickCreateLobby = () => {
-    this.setState({ createLobbyError: "Connecting..." });
+    this.setState({ createLobbyError: "Qoşulur..." });
     this.tryCreateLobby()
       .then((response) => {
         if (response.ok) {
@@ -637,7 +637,7 @@ class App extends Component<{}, AppState> {
               // if the connection failed
               this.setState({
                 createLobbyError:
-                  "There was an error connecting to the server. Please try again.",
+                  "Serverə qoşulanda problem yarandı. Bir daha sınayın.",
               });
               ReactGA.event({
                 category: "Lobby Creation Failed",
@@ -656,7 +656,7 @@ class App extends Component<{}, AppState> {
         } else {
           this.setState({
             createLobbyError:
-              "There was an error connecting to the server. Please try again.",
+              "Serverə qoşulanda problem yarandı. Bir daha sınayın.",
           });
           ReactGA.event({
             category: "Lobby Creation Failed",
@@ -756,7 +756,7 @@ class App extends Component<{}, AppState> {
             (Please be nice, they are trying their best.)
           </p>
         </AnnouncementBox>
-        
+
         <br />
         <LoginPageContent />
       </div>
