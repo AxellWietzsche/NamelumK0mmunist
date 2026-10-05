@@ -114,11 +114,11 @@ class VotingPrompt extends Component<VotingPromptProps, VotingPromptState> {
                 {presidentName +
                   " " +
                   chancellorName +
-                  "i kansler vəzifəsinə namizəd göstərib."}
+                  "ı(/i/u/ü) kansler vəzifəsinə namizəd göstərib."}
               </p>
               <p className="left-align">
                 {
-                  "Bu hökumətin fəaliyyətini davam etdirməsini istəyib-istəmədiyinizə səs verin; səslərin 50%-dən çoxubəli olarsa, qərar qəbul edilmiş sayılır."
+                  "Bu hökumətin fəaliyyətini davam etdirməsini istəyib-istəmədiyinizə səs verin; səslərin 50%-dən çoxu bəli olarsa, qərar qəbul edilmiş sayılır."
                 }
               </p>
 
@@ -127,7 +127,7 @@ class VotingPrompt extends Component<VotingPromptProps, VotingPromptState> {
               {this.props.gameState.fascistPolicies >= 3 && (
                 <p className="highlight left-align">
                   {
-                    "Fascists will win if Hitler is successfully voted in as chancellor!"
+                    "Əgər Hitler uğurla kansler seçilərsə, faşistlər qalib gələcəklər!"
                   }
                 </p>
               )}
