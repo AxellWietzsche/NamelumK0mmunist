@@ -36,7 +36,7 @@ class VetoPrompt extends Component<VetoPromptProps, VetoPromptState> {
   render() {
     return (
       <ButtonPrompt
-        label={"LEGISLATIVE VETO"}
+        label={"QANUNVERİCİLİK VETOSU"}
         renderHeader={() => {
           return (
             <>
@@ -63,7 +63,7 @@ class VetoPrompt extends Component<VetoPromptProps, VetoPromptState> {
             </>
           );
         }}
-        footerText={"Accept the veto?"}
+        footerText={"Veto qəbul edilsin?"}
         renderButton={() => {
           return (
             <>
