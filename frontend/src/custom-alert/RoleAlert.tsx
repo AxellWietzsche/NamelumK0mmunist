@@ -115,7 +115,7 @@ class RoleAlert extends Component<RoleAlertProps> {
       <div>
         <div>
           <h2 id="alert-header" className={"left-align"}>
-            SƏN: {this.props.role} 
+            SƏNİN ROLUN: {this.props.role} 
           </h2>
           <img id="role" src={image} alt={alt} />
 
