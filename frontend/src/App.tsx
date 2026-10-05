@@ -944,6 +944,7 @@ class App extends Component<{}, AppState> {
               </button>
               <button onClick={this.onClickLeaveLobby}>LEAVE LOBBY</button>
             </div>
+            /*
             <div id={"lobby-text-container"}>
               <p id={"lobby-about-text"}>
                 <a
@@ -970,11 +971,15 @@ class App extends Component<{}, AppState> {
                 </a>
               </p>
             </div>
+            */
+
           </div>
         </div>
+        
         <div style={{ textAlign: "center" }}>
           <div id="snackbar">{this.state.snackbarMessage}</div>
         </div>
+
       </div>
     );
   }
