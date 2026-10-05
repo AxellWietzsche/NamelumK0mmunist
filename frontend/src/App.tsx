@@ -944,8 +944,8 @@ class App extends Component<{}, AppState> {
               </button>
               <button onClick={this.onClickLeaveLobby}>LEAVE LOBBY</button>
             </div>
-            
-            <div id={"lobby-text-container"}>/*
+
+            <div id={"lobby-text-container"}>
               <p id={"lobby-about-text"}>
                 <a
                   href={
@@ -969,7 +969,7 @@ class App extends Component<{}, AppState> {
                 >
                   Issues page.
                 </a>
-              </p> */
+              </p>
             </div>
 
           </div>
