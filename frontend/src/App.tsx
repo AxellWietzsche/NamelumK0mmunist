@@ -692,7 +692,7 @@ class App extends Component<{}, AppState> {
 
                     </div>
                     */}
-          <h2>JOIN A GAME</h2>
+          <h2>OYUNA QOŞUL</h2>
           <MaxLengthTextField
             label={"Lobby"}
             onChange={this.updateJoinLobby}
@@ -703,7 +703,7 @@ class App extends Component<{}, AppState> {
           />
 
           <MaxLengthTextField
-            label={"Your Name"}
+            label={"Sənin adın"}
             onChange={this.updateJoinName}
             value={this.state.joinName}
             maxLength={12}
@@ -718,9 +718,9 @@ class App extends Component<{}, AppState> {
         </div>
         <br />
         <div>
-          <h2>CREATE A LOBBY</h2>
+          <h2>LOBBİ YARAT</h2>
           <MaxLengthTextField
-            label={"Your Name"}
+            label={"Sənin adın"}
             onChange={this.updateCreateLobbyName}
             value={this.state.createLobbyName}
             maxLength={12}
@@ -733,6 +733,7 @@ class App extends Component<{}, AppState> {
             CREATE LOBBY
           </button>
         </div>
+        
         <AnnouncementBox>
           <h2>Announcing: BOTS!</h2>
           <p>
@@ -755,6 +756,7 @@ class App extends Component<{}, AppState> {
             (Please be nice, they are trying their best.)
           </p>
         </AnnouncementBox>
+        
         <br />
         <LoginPageContent />
       </div>
