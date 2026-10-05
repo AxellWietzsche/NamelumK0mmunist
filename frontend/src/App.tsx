@@ -679,7 +679,7 @@ class App extends Component<{}, AppState> {
   renderLoginPage() {
     return (
       <div className="App">
-        <header className="App-header">Axell's Namelum Ğommunist</header>
+        <header className="App-header">SECRET-HITLER.ONLINE</header>
         <br />
         <div style={{ textAlign: "center" }}>
           {/** TODO: Add reusable announcement component. 
@@ -703,7 +703,7 @@ class App extends Component<{}, AppState> {
           />
 
           <MaxLengthTextField
-            label={"Adın"}
+            label={"Your Name"}
             onChange={this.updateJoinName}
             value={this.state.joinName}
             maxLength={12}
@@ -713,12 +713,12 @@ class App extends Component<{}, AppState> {
             onClick={this.onClickJoin}
             disabled={!this.shouldJoinButtonBeEnabled()}
           >
-            QOŞUL
+            JOIN
           </button>
         </div>
         <br />
         <div>
-          <h2>LOBBİ YARADIN</h2>
+          <h2>CREATE A LOBBY</h2>
           <MaxLengthTextField
             label={"Your Name"}
             onChange={this.updateCreateLobbyName}
@@ -730,10 +730,31 @@ class App extends Component<{}, AppState> {
             onClick={this.onClickCreateLobby}
             disabled={!this.shouldCreateLobbyButtonBeEnabled()}
           >
-            LOBBİ YARAT
+            CREATE LOBBY
           </button>
         </div>
-        
+        <AnnouncementBox>
+          <h2>Announcing: BOTS!</h2>
+          <p>
+            You can now start games with only 1-4 players; extra spots will be
+            filled by bots.
+          </p>
+          <p>
+            Bots are still in beta, so{" "}
+            <a
+              href={
+                "https://github.com/ShrimpCryptid/Secret-Hitler-Online/issues/44"
+              }
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              leave feedback on GitHub!
+            </a>
+          </p>
+          <p style={{ fontStyle: "italic", fontSize: "calc(8px + 1vmin)" }}>
+            (Please be nice, they are trying their best.)
+          </p>
+        </AnnouncementBox>
         <br />
         <LoginPageContent />
       </div>
@@ -856,7 +877,7 @@ class App extends Component<{}, AppState> {
       this.state.usernames[0] === this.state.name;
     return (
       <div className="App">
-        <header className="App-header">Axell's Naməlum Ğommunist</header>
+        <header className="App-header">SECRET-HITLER.ONLINE</header>
 
         <CustomAlert show={this.state.showAlert}>
           {this.state.alertContent}
@@ -866,7 +887,7 @@ class App extends Component<{}, AppState> {
           style={{ textAlign: "left", marginLeft: "20px", marginRight: "20px" }}
         >
           <div style={{ display: "flex", flexDirection: "row" }}>
-            <h2>LOBBİ KODU: </h2>
+            <h2>LOBBY CODE: </h2>
             <h2
               style={{ marginLeft: "5px", color: "var(--textColorHighlight)" }}
             >
@@ -888,7 +909,7 @@ class App extends Component<{}, AppState> {
             <textarea
               id="linkText"
               readOnly={true}
-              value={"https://namelumkommunist.netlify.app/?lobby=" + this.state.lobby}
+              value={"https://secret-hitler.online/?lobby=" + this.state.lobby}
             />
             <button onClick={this.onClickCopy}>COPY</button>
           </div>
@@ -921,7 +942,34 @@ class App extends Component<{}, AppState> {
               </button>
               <button onClick={this.onClickLeaveLobby}>LEAVE LOBBY</button>
             </div>
-            
+            <div id={"lobby-text-container"}>
+              <p id={"lobby-about-text"}>
+                <a
+                  href={
+                    "https://github.com/ShrimpCryptid/Secret-Hitler-Online/blob/main/README.md"
+                  }
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
+                  About this project
+                </a>
+              </p>
+              <br />
+              <p id={"lobby-warning-text"}>
+                You can report bugs on the{" "}
+                <a
+                  href={
+                    "https://github.com/ShrimpCryptid/Secret-Hitler-Online/issues"
+                  }
+                  rel="noopener noreferrer"
+                  target={"_blank"}
+                >
+                  Issues page.
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
         <div style={{ textAlign: "center" }}>
           <div id="snackbar">{this.state.snackbarMessage}</div>
         </div>
