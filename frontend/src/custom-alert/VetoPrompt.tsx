@@ -41,23 +41,23 @@ class VetoPrompt extends Component<VetoPromptProps, VetoPromptState> {
           return (
             <>
               <p className={"left-align"}>
-                The chancellor has requested to veto the agenda.
+                Kansler seçimə veto qoyulmasını xahiş edib.
               </p>
               {this.props.electionTracker === 2 && (
                 <p className={"left-align highlight"}>
-                  If the veto is accepted, the top policy on the draw pile will
-                  be automatically enacted.
+                  Əgər veto qəbul edilərsə, çəkilməyi gözləyən kartlar dəstəsinin ən
+                   üstündəki siyasət avtomatik olaraq qüvvəyə minəcək.
                 </p>
               )}
               {this.props.electionTracker !== 2 && (
                 <p className={"left-align"}>
-                  If the veto is accepted, the remaining policies will be
-                  discarded and the election tracker will advance by 1.
+                  Əgər veto qəbul edilərsə, qalan siyasətlər kənarlaşdırılacaq
+                  və seçki izləyicisi 1 vahid irəliləyəcək.
                 </p>
               )}
               <p className={"left-align"}>
-                Otherwise, the chancellor will be required to enact a policy as
-                normal.
+                Əks təqdirdə, kanslerdən adi qaydada siyasət həyata keçirməsi
+                tələb olunacaq.
               </p>
               <br />
             </>
@@ -71,13 +71,13 @@ class VetoPrompt extends Component<VetoPromptProps, VetoPromptState> {
                 onClick={() => this.onButtonClick(false)}
                 disabled={this.state.waitingForServer}
               >
-                REJECT
+                RƏDD ET
               </button>
               <button
                 onClick={() => this.onButtonClick(true)}
                 disabled={this.state.waitingForServer}
               >
-                ACCEPT
+                QƏBUL ET
               </button>
             </>
           );
