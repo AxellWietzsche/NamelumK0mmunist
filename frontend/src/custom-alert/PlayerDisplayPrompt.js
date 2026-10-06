@@ -50,7 +50,7 @@ PlayerDisplayPrompt.defaultProps = {
     user: "",
     includeUser: false,
     disabledFilter: DISABLE_EXECUTED_PLAYERS,
-    buttonText: "CONFIRM",
+    buttonText: "TƏSDİQLƏ",
     buttonOnClick: (selectedItem) => {
         console.log("Button clicked with " + selectedItem + " selected.");
     }
