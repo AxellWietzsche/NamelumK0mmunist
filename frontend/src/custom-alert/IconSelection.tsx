@@ -173,7 +173,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
                 game, so this would be a big help.
               </p>
               <TwitterShareButton
-                url={"https://secret-hitler.online!"}
+                url={"https://namelumkommunist.netlify.app"}
                 options={{
                   text: "I'm playing #SecretHitlerOnline at",
                   size: "large",

@@ -124,7 +124,7 @@ class RoleAlert extends Component<RoleAlertProps> {
           <p className="highlight left-align">{roleText[2]}</p>
         </div>
 
-        <button onClick={this.props.onClick}>OKAY</button>
+        <button onClick={this.props.onClick}>OKEI</button>
       </div>
     );
   }
