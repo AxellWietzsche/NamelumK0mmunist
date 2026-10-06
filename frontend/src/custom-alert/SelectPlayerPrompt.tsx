@@ -105,14 +105,14 @@ export const SelectNominationPrompt = (
         return (
           <div>
             <p className="left-align">
-              Nominate a player to become the next Chancellor.
+              Növbəti Kansler olması üçün bir oyunçunu namizəd göstərin.
             </p>
             <p
               className="left-align highlight"
               hidden={!shouldFascistVictoryWarningBeShown}
             >
-              Fascists will win if Hitler is nominated and voted in as
-              Chancellor!
+              Əgər Hitler namizəd göstərilib kansler seçilərsə, faşistlər
+              qalib gələcəklər!
             </p>
           </div>
         );
@@ -150,16 +150,16 @@ export const SelectInvestigationPrompt = (
         return (
           <>
             <p className={"left-align"}>
-              Choose a player and investigate their party alignment. You'll
-              learn if the player is a member of the Fascist or Liberal party,
-              but not their specific role (e.g., Hitler).
+              Bir oyunçu seçin və onun hansı partiyaya mənsub olduğunu araşdırın.
+              həmin oyunçunun Faşist və ya Liberal partiyanın üzvü olduğunu öyrənəcəksən,
+              lakin onun konkret rolunu (məsələn, Hitler olub-olmadığını) bilməyəcəksiniz.
             </p>
             <p className={"left-align"}>
-              Players that have been investigated once cannot be investigated
-              again.
+              Bir dəfə araşdırılmış oyunçular yenidən araşdırıla bilməz.
+              
             </p>
             <p className={"left-align highlight"}>
-              (Remember that you can lie about the player's party alignment!)
+              (Unutmayın ki, oyunçunun partiya üzvülüyü barədə yalan danışa bilərsiniz!)
             </p>
           </>
         );
@@ -207,11 +207,11 @@ export const SelectExecutionPrompt = (
         return (
           <>
             <p className={"left-align"}>
-              Choose a player to execute. That player can no longer speak, vote,
-              or run for office.
+              Edam ediləcək oyunçunu seçin. Həmin oyunçu artıq danışa, səs verə
+              və ya vəzifəyə namizədliyini irəli sürə bilməz.
             </p>
             <p className={"left-align highlight"}>
-              The game ends and Liberals win if Hitler is executed.
+              Hitler edam edilərsə, oyun başa çatır və liberallar qalib gəlir.
             </p>
           </>
         );

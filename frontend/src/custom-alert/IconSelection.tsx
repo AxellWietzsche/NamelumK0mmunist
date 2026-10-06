@@ -184,7 +184,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
                     id={"icon-text"}
                     style={{ color: "var(--textColorLiberal)" }}
                   >
-                    Loading...
+                    Yüklənir...
                   </p>
                 }
               />
@@ -215,7 +215,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
                     id={"icon-text"}
                     style={{ color: "var(--textColorLiberal)" }}
                   >
-                    Loading...
+                    Yüklənir...
                   </p>
                 }
               />

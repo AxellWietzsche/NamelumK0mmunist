@@ -111,7 +111,7 @@ class ChancellorLegislativePrompt extends Component<
                   this.state.waitingForServer
                 }
               >
-                ENACT
+                TƏTBİQ ET
               </button>
             </div>
           );

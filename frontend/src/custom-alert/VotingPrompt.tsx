@@ -112,9 +112,9 @@ class VotingPrompt extends Component<VotingPromptProps, VotingPromptState> {
 
               <p className="left-align">
                 {presidentName +
-                  " " +
+                  " kansler vəzifəsinə " +
                   chancellorName +
-                  "ı(/i/u/ü) kansler vəzifəsinə namizəd göstərib."}
+                  "ı(/i/u/ü) namizəd göstərib."}
               </p>
               <p className="left-align">
                 {
