@@ -713,7 +713,7 @@ class App extends Component<{}, AppState> {
             onClick={this.onClickJoin}
             disabled={!this.shouldJoinButtonBeEnabled()}
           >
-            JOIN
+            QOŞUL
           </button>
         </div>
         <br />
@@ -730,7 +730,7 @@ class App extends Component<{}, AppState> {
             onClick={this.onClickCreateLobby}
             disabled={!this.shouldCreateLobbyButtonBeEnabled()}
           >
-            CREATE LOBBY
+            LOBBİ YARAT
           </button>
         </div>
         
