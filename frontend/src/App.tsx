@@ -913,7 +913,7 @@ class App extends Component<{}, AppState> {
               readOnly={true}
               value={"https://namelumkommunist.netlify.app/?lobby=" + this.state.lobby}
             />
-            <button onClick={this.onClickCopy}>COPY</button>
+            <button onClick={this.onClickCopy}>KOPYALA</button>
           </div>
 
           <div id={"lobby-lower-container"}>
@@ -926,7 +926,7 @@ class App extends Component<{}, AppState> {
                   id={"lobby-change-icon-button"}
                   onClick={this.onClickChangeIcon}
                 >
-                  CHANGE ICON
+                  IKON
                 </button>
               </div>
               <div id={"lobby-player-container"}>{this.renderPlayerList()}</div>
@@ -940,9 +940,9 @@ class App extends Component<{}, AppState> {
                 onClick={this.onClickStartGame}
                 disabled={!isVIP || !this.shouldStartGameBeEnabled()}
               >
-                START GAME
+                OYUNU BAŞLAT
               </button>
-              <button onClick={this.onClickLeaveLobby}>LEAVE LOBBY</button>
+              <button onClick={this.onClickLeaveLobby}>LOBBİDƏN ÇIX</button>
             </div>
 
             <div id={"lobby-text-container"}>
