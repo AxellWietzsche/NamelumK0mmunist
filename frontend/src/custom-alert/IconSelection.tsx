@@ -173,7 +173,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
                 game, so this would be a big help.
               </p>
               <TwitterShareButton
-                url={"https://namelumkommunist.netlify.app"}
+                url={"https://secret-hitler.online!"}
                 options={{
                   text: "I'm playing #SecretHitlerOnline at",
                   size: "large",
@@ -184,7 +184,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
                     id={"icon-text"}
                     style={{ color: "var(--textColorLiberal)" }}
                   >
-                    Yüklənir...
+                    Loading...
                   </p>
                 }
               />
@@ -215,7 +215,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
                     id={"icon-text"}
                     style={{ color: "var(--textColorLiberal)" }}
                   >
-                    Yüklənir...
+                    Yuklenir...
                   </p>
                 }
               />
@@ -227,7 +227,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
 
     return (
       <ButtonPrompt
-        label={"PLAYER LOOK"}
+        label={"OYUNÇUNUN GÖRÜNÜŞÜ"}
         renderHeader={() => {
           return (
             <>
