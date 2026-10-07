@@ -47,7 +47,7 @@ ButtonPrompt.defaultProps = {
         );
     },
 
-    buttonText: "CONFIRM",
+    buttonText: "TƏSDİQLƏ",
     buttonOnClick: () => {console.log("Button clicked.")},
     buttonDisabled: false,
     renderButton: (obj) => {

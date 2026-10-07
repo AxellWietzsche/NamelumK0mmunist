@@ -694,7 +694,7 @@ class App extends Component<{}, AppState> {
                     */}
           <h2>OYUNA QOŞUL</h2>
           <MaxLengthTextField
-            label={"Lobby"}
+            label={"Lobbi kodu"}
             onChange={this.updateJoinLobby}
             value={this.state.joinLobby}
             maxLength={LOBBY_CODE_LENGTH}
