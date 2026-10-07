@@ -227,7 +227,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
 
     return (
       <ButtonPrompt
-        label={"OYUNÇUNUN GÖRÜNÜŞÜ"}
+        label={"OYUNÇUNUN1 GÖRÜNÜŞÜ"}
         renderHeader={() => {
           return (
             <>

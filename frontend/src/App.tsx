@@ -391,7 +391,7 @@ class App extends Component<{}, AppState> {
       this.setState({
         joinName: this.state.name,
         joinLobby: this.state.lobby,
-        joinError: "Disconnected from the lobby.",
+        joinError: "Lobbidən atrıldı.",
         page: PAGE.LOGIN,
       });
       ReactGA.event({
@@ -889,7 +889,7 @@ class App extends Component<{}, AppState> {
           style={{ textAlign: "left", marginLeft: "20px", marginRight: "20px" }}
         >
           <div style={{ display: "flex", flexDirection: "row" }}>
-            <h2>LOBBY CODE: </h2>
+            <h2>LOBBI KODU: </h2>
             <h2
               style={{ marginLeft: "5px", color: "var(--textColorHighlight)" }}
             >
@@ -898,7 +898,7 @@ class App extends Component<{}, AppState> {
           </div>
 
           <p style={{ marginBottom: "2px" }}>
-            Copy and share this link to invite other players.
+            Digər oyunçuları dəvət etmək üçün bu linki kopyalay və paylaş.
           </p>
           <div
             style={{
@@ -1762,7 +1762,7 @@ class App extends Component<{}, AppState> {
                   }}
                 >
                   {" "}
-                  END TERM
+                  E SONLANDIR
                 </button>
 
                 <PlayerPolicyStatus
