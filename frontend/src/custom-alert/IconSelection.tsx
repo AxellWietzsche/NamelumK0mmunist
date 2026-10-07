@@ -165,7 +165,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
       footerContent = () => {
         return (
           <>
-            <h2 style={{ textAlign: "left" }}>EXTRA ICONS:</h2>
+            <h2 style={{ textAlign: "left" }}>ƏLAVƏ IKONLAR:</h2>
             <div id={"locked-icon-text-container"}>
               <p id={"icon-text"} style={{ textAlign: "left" }}>
                 Unlock these {lockedPortraits.length} extra icons by sharing
