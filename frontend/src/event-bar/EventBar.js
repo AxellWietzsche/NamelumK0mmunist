@@ -35,7 +35,7 @@ class EventBar extends Component {
 }
 
 EventBar.defaultProps = {
-    message: "CHANCELLOR NOMINATION",
+    message: "KANSELR NAMİZƏDLİYİ",
     show: true
 };
 

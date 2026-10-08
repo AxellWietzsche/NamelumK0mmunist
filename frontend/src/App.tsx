@@ -1139,7 +1139,7 @@ class App extends Component<{}, AppState> {
 
           this.queueEventUpdate("CHANCELLOR NOMINATION");
           this.queueStatusMessage(
-            "Waiting for president to nominate a chancellor."
+            "Prezidentin kanslerlik üçün anmizəd seçməyi gözlənilir."
           );
 
           if (isPresident) {
