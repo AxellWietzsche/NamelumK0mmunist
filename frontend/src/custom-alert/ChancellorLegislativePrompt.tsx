@@ -75,7 +75,7 @@ class ChancellorLegislativePrompt extends Component<
     let props = this.props;
     return (
       <ButtonPrompt
-        label={"LEGISLATIVE SESSION"}
+        label={"QANUNVERİCİLİK SESSİYASI"}
         headerText={
           "Tətbiq etmək üçün bir qanun seçin. Seçilməmiş qanunlar ləğv ediləcək."
         }

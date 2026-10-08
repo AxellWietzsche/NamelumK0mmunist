@@ -50,7 +50,7 @@ class PresidentLegislativePrompt extends Component<
   render() {
     return (
       <ButtonPrompt
-        label={"LEGISLATIVE SESSION"}
+        label={"QANUNVERİCİLİK SESSİYASI"}
         headerText={
           "Choose a policy to discard. The remaining policies are given to the chancellor."
         }

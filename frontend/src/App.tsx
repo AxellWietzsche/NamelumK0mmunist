@@ -1137,7 +1137,7 @@ class App extends Component<{}, AppState> {
             );
           }
 
-          this.queueEventUpdate("CHANCELLOR NOMINATION");
+          this.queueEventUpdate("KANSLER NAMİZƏDLİYİ");
           this.queueStatusMessage(
             "Prezidentin kanslerlik üçün anmizəd seçməyi gözlənilir."
           );
@@ -1175,7 +1175,7 @@ class App extends Component<{}, AppState> {
         case STATE_LEGISLATIVE_PRESIDENT:
           // The vote completed, so show the votes.
           this.addAnimationToQueue(() => this.showVotes(newState));
-          this.queueEventUpdate("LEGISLATIVE SESSION");
+          this.queueEventUpdate("QANUNVERİCİLİK SESSİYASI");
 
           // TODO: Animate cards being pulled from the draw deck for all users.
 
