@@ -97,7 +97,7 @@ class VotingPrompt extends Component<VotingPromptProps, VotingPromptState> {
     let presidentName = this.props.gameState[PARAM_PRESIDENT];
     return (
       <ButtonPrompt
-        label={"VOTING"}
+        label={"SƏSVERMƏ"}
         renderHeader={() => {
           return (
             <>
