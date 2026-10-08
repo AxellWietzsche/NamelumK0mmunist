@@ -43,7 +43,7 @@ class PolicyEnactedAlert extends Component {
         renderLabel={() => {
           return <h2 className={"left-align"}>QANUN QÜVVƏYƏ MİNDİ</h2>; // aligns text with center
         }}
-        buttonText={"OKAY"}
+        buttonText={"OKEI"}
         buttonOnClick={this.props.hideAlert}
       >
         <div id={"policy-enacted-container"}>

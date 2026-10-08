@@ -35,7 +35,7 @@ class ElectionTrackerAlert extends Component {
                             </p>
                         </>);
                 }}
-                buttonText={"OKAY"}
+                buttonText={"OKEI"}
                 buttonOnClick={this.props.closeAlert}
             >
                 <div id={"election-tracker-container"}>

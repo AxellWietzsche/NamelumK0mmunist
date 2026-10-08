@@ -55,7 +55,7 @@ class InvestigationAlert extends Component {
         }}
         buttonOnClick={this.props.hideAlert}
         buttonDisabled={this.state.disableButton}
-        buttonText={"OKAY"}
+        buttonText={"OKEI"}
       >
         <div id={"party-card-container"}>
           <img

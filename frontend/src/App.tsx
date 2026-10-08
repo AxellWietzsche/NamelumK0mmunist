@@ -992,9 +992,9 @@ class App extends Component<{}, AppState> {
     if (name === newState.targetUser) {
       this.queueAlert(
         <ButtonPrompt
-          label={"YOU HAVE BEEN EXECUTED"}
+          label={"SƏN EDAM EDİLDİN"}
           headerText={
-            "Executed players may not speak, vote, or run for office. You should not reveal your identity to the group."
+            "Edam edilmiş oyunçu danışa, səs verə və ya vəzifəyə namizədliyini irəli sürə bilməz. Rolunu qrupa açıqlaMAmalısan."
           }
           buttonOnClick={this.hideAlertAndFinish}
         />,
@@ -1003,13 +1003,13 @@ class App extends Component<{}, AppState> {
     } else {
       this.queueAlert(
         <ButtonPrompt
-          label={"EXECUTION RESULTS"}
+          label={"EDAM NƏTİCƏSİ"}
           footerText={
             newState.targetUser +
-            " has been executed. They may no longer speak, vote, or run for office."
+            " edam edildi. O, artıq danışa, səs verə və ya vəzifəyə namizədliyini irəli sürə bilməz."
           }
           buttonOnClick={this.hideAlertAndFinish}
-          buttonText={"OKAY"}
+          buttonText={"OKEI"}
         >
           <PlayerDisplay
             user={name}
@@ -1180,12 +1180,12 @@ class App extends Component<{}, AppState> {
           // TODO: Animate cards being pulled from the draw deck for all users.
 
           this.queueStatusMessage(
-            "Waiting for the president to choose a policy to discard."
+            "Prezidentin imtina edəcəyi qanunu seçməsini gözləyin."
           );
 
           if (isPresident) {
             if (!newState.presidentChoices) {
-              throw new Error("President choices not found.");
+              throw new Error("Prezident seçimi tapılmadı.");
             }
             this.queueAlert(
               <PresidentLegislativePrompt
@@ -1199,11 +1199,11 @@ class App extends Component<{}, AppState> {
 
         case STATE_LEGISLATIVE_CHANCELLOR:
           this.queueStatusMessage(
-            "Waiting for the chancellor to choose a policy to enact."
+            "Kanslerin qüvvəyə minəcək qanunu seçməsini gözləyin."
           );
           if (isChancellor) {
             if (!newState.chancellorChoices) {
-              throw new Error("Chancellor choices not found.");
+              throw new Error("Kansler seçimi tapılmadı.");
             }
             this.queueAlert(
               <ChancellorLegislativePrompt
@@ -1224,7 +1224,7 @@ class App extends Component<{}, AppState> {
 
         case STATE_LEGISLATIVE_PRESIDENT_VETO:
           this.queueStatusMessage(
-            "Chancellor has motioned to veto the agenda. Waiting for the president to decide."
+            "Kansler qanunu veto vermək üçün səsləndi. Prezidentin qərarını gözləyin."
           );
           if (isPresident) {
             this.queueAlert(
@@ -1238,7 +1238,7 @@ class App extends Component<{}, AppState> {
           break;
 
         case STATE_PP_PEEK:
-          this.queueEventUpdate("PRESIDENTIAL POWER");
+          this.queueEventUpdate("PREZIDENTLİK GÜCÜ");
           if (isPresident) {
             if (!newState.peek) {
               throw new Error("Peek policies not found.");
@@ -1313,7 +1313,7 @@ class App extends Component<{}, AppState> {
                       " to be the next president." +
                       "\nThe normal presidential order will resume after the next round."
                     }
-                    buttonText={"OKAY"}
+                    buttonText={"OKEI"}
                     buttonOnClick={this.hideAlertAndFinish}
                   >
                     <PlayerDisplay
@@ -1346,7 +1346,7 @@ class App extends Component<{}, AppState> {
                     //                The president now knows their party affiliation.
                     footerText={footerText}
                     buttonOnClick={this.hideAlertAndFinish}
-                    buttonText={"OKAY"}
+                    buttonText={"OKEI"}
                   >
                     <PlayerDisplay
                       user={name}
