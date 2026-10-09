@@ -98,7 +98,7 @@ export const SelectNominationPrompt = (
     <SelectPlayerPrompt
       user={user}
       commandType={WSCommandType.NOMINATE_CHANCELLOR}
-      label={"NOMINATION"}
+      label={"NAMIZƏDLİK"}
       gameState={gameState}
       sendWSCommand={sendWSCommand}
       renderHeader={() => {
