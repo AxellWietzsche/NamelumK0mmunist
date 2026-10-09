@@ -52,9 +52,9 @@ class PresidentLegislativePrompt extends Component<
       <ButtonPrompt
         label={"QANUNVERİCİLİK SESSİYASI"}
         headerText={
-          "Choose a policy to discard. The remaining policies are given to the chancellor."
+          "Ləğv ediləcək qanunu seçin. Qalan qanunlar kanslerə verilir."
         }
-        buttonText={"DISCARD"}
+        buttonText={"LƏĞV ET"}
         buttonOnClick={this.onButtonClick}
         buttonDisabled={
           this.state.selection === undefined || this.state.waitingForServer
