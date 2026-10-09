@@ -27,7 +27,7 @@ class PlayerPolicyStatus extends  Component {
         return (
             <div id={"pps-container"}>
                 <p id={"pps-text"}>
-                    Players:
+                    Oyunçular:
                 </p>
                 <div id={"pps-icon-container"}>
                     <img id="pps-icon" src={IconLiberal} alt={"Liberal"}/>
@@ -39,7 +39,7 @@ class PlayerPolicyStatus extends  Component {
                 </div>
 
                 <p id={"pps-text"}>
-                    Unenacted Policies:
+                    Həyata keçirilməmiş qanunlar:
                 </p>
                 <div id={"pps-icon-container"}>
                     <img id="pps-icon" className={"highlight-blue"} src={IconLiberal} alt={"Liberal"}/>
