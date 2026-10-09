@@ -27,7 +27,7 @@ class ElectionTrackerAlert extends Component {
                     return (<>
                             <p className={"left-align"}>
                                 Hökumət hər hansı bir siyasəti qəbul edə bilmədikdə (və ya qəbul etməkdən imtina
-                                etdikdə) seçki göstəricisi 1 vahid artır, siyasət qəbul edildikdə isə sıfırlanır.
+                                etdikdə) seçki sayğacı 1 vahid artır, siyasət qəbul edildikdə isə sıfırlanır.
                             </p>
                             <p className={"left-align highlight"}>
                                 Sayğac 3-cü bölgüyə çatdıqda, çəkilmə dəstəsində ən üstdəki qanun birbaşa qəbul edilir.
