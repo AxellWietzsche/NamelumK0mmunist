@@ -145,7 +145,7 @@ export const SelectInvestigationPrompt = (
       commandType={WSCommandType.GET_INVESTIGATION}
       disabledFilter={DISABLE_INVESTIGATED_PLAYERS}
       includeUser={false}
-      label={"INVESTIGATE LOYALTY"}
+      label={"SƏDAQƏTİ ARAŞDIR"}
       renderHeader={() => {
         return (
           <>
@@ -181,9 +181,9 @@ export const SelectSpecialElectionPrompt = (
       commandType={WSCommandType.REGISTER_SPECIAL_ELECTION}
       disabledFilter={DISABLE_EXECUTED_PLAYERS}
       includeUser={false}
-      label={"SPECIAL ELECTION"}
+      label={"ÖZƏL SEÇKİ"}
       headerText={
-        "Choose any player to become the next president. Once their term is finished, the order continues as normal."
+        "Növbəti prezident olacaq istənilən oyunçunu seçin. Onun səlahiyyət müddəti başa çatdıqdan sonra növbə qaydası əvvəlki kimi davam edəcək."
       }
     />
   );

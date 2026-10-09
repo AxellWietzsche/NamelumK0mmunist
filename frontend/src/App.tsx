@@ -1367,7 +1367,7 @@ class App extends Component<{}, AppState> {
           }
 
           this.queueStatusMessage(
-            "Waiting for the president to end their term."
+            "Prezidentin növbəsini bitirməsini gözlə."
           );
           break;
 
