@@ -1153,8 +1153,8 @@ class App extends Component<{}, AppState> {
 
         case STATE_CHANCELLOR_VOTING:
           this.setState({ statusBarText: "" });
-          this.queueEventUpdate("VOTING");
-          this.queueStatusMessage("Waiting for all players to vote.");
+          this.queueEventUpdate("SƏS VERMƏ");
+          this.queueStatusMessage("Bütün oyuçuların səsverməsini gözləyin.");
           // Check if the player is dead or has already voted-- if so, do not show the voting prompt.
           if (
             newState.players[name][PLAYER_IS_ALIVE] &&
@@ -1576,7 +1576,7 @@ class App extends Component<{}, AppState> {
   }
 
   showVotes(newState: GameState) {
-    this.setState({ statusBarText: "Tallying votes..." });
+    this.setState({ statusBarText: "Səslər hesablanır..." });
     setTimeout(() => {
       this.setState({ showVotes: true });
     }, 1000);
@@ -1594,11 +1594,11 @@ class App extends Component<{}, AppState> {
     setTimeout(() => {
       if (yesVotes > noVotes) {
         this.setState({
-          statusBarText: yesVotes + " - " + noVotes + ": Vote passed",
+          statusBarText: yesVotes + " - " + noVotes + ": Səsvermə qəbul edildi",
         });
       } else {
         this.setState({
-          statusBarText: yesVotes + " - " + noVotes + ": Vote failed",
+          statusBarText: yesVotes + " - " + noVotes + ": Səsvermə qəbul edilmədi",
         });
       }
     }, 2000);
@@ -1762,7 +1762,7 @@ class App extends Component<{}, AppState> {
                   }}
                 >
                   {" "}
-                  E SONLANDIR
+                  NÖVBƏNİ SONLANDIR
                 </button>
 
                 <PlayerPolicyStatus
