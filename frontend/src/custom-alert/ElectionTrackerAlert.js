@@ -22,16 +22,16 @@ class ElectionTrackerAlert extends Component {
     render() {
         return (
             <ButtonPrompt
-                label={"LEGISLATURE FAILED"}
+                label={"QANUNVERİCİ ORQAN QƏBUL EDİLMƏDİ"}
                 renderHeader={() => {
                     return (<>
                             <p className={"left-align"}>
-                                The election tracker advances by 1 every time a government fails to
-                                (or refuses to) pass a policy, and resets whenever a policy is passed.
+                                Hökumət hər hansı bir siyasəti qəbul edə bilmədikdə (və ya qəbul etməkdən imtina
+                                etdikdə) seçki göstəricisi 1 vahid artır, siyasət qəbul edildikdə isə sıfırlanır.
                             </p>
                             <p className={"left-align highlight"}>
-                                When the tracker reaches 3, the top policy on the draw deck is instantly passed.
-                                No presidential powers trigger and all term limits will be reset.
+                                Sayğac 3-cü bölgüyə çatdıqda, çəkilmə dəstəsində ən üstdəki qanun birbaşa qəbul edilir.
+                                Heç bir prezident səlahiyyəti aktivləşmir və bütün seçki məhdudiyyətləri sıfırlanır.
                             </p>
                         </>);
                 }}

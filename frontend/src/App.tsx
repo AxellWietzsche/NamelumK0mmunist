@@ -1238,7 +1238,7 @@ class App extends Component<{}, AppState> {
           break;
 
         case STATE_PP_PEEK:
-          this.queueEventUpdate("PREZIDENTLİK GÜCÜ");
+          this.queueEventUpdate("PREZIDENTLİK SƏLAHİYYƏTİ");
           if (isPresident) {
             if (!newState.peek) {
               throw new Error("Peek policies not found.");
