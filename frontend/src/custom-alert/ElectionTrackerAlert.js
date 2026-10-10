@@ -26,7 +26,7 @@ class ElectionTrackerAlert extends Component {
                 renderHeader={() => {
                     return (<>
                             <p className={"left-align"}>
-                                Hökumət hər hansı bir siyasəti qəbul edə bilmədikdə (və ya qəbul etməkdən imtina
+                                Hökumət hər hansı bir qanunu qəbul edə bilmədikdə (və ya qəbul etməkdən imtina
                                 etdikdə) seçki sayğacı 1 vahid artır, siyasət qəbul edildikdə isə sıfırlanır.
                             </p>
                             <p className={"left-align highlight"}>

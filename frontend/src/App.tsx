@@ -934,7 +934,7 @@ class App extends Component<{}, AppState> {
 
             <div id={"lobby-button-container"}>
               {!isVIP && (
-                <p id={"lobby-vip-text"}>Only the VIP can start the game.</p>
+                <p id={"lobby-vip-text"}>Təkcə VİP oyunu başlada bilər.</p>
               )}
               <button
                 onClick={this.onClickStartGame}
@@ -1139,7 +1139,7 @@ class App extends Component<{}, AppState> {
 
           this.queueEventUpdate("KANSLER NAMİZƏDLİYİ");
           this.queueStatusMessage(
-            "Prezidentin kanslerlik üçün anmizəd seçməyi gözlənilir."
+            "Prezidentin kanslerlik üçün namizəd seçməyi gözlənilir."
           );
 
           if (isPresident) {
