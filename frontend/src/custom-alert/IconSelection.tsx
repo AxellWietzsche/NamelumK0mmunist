@@ -84,11 +84,11 @@ class IconSelection extends Component<IconSelectionProps> {
 
     return (
       <ButtonPrompt
-        label={"PLAYER LOOK"}
+        label={"OYUNÇUNUN GÖRÜNÜŞÜ"}
         renderHeader={() => {
           return (
             <>
-              <p>Choose a look, then press confirm.</p>
+              <p>Görünüş seç, sonra təsdiqlə.</p>
               {this.getIconButtonHML(allPortraits)}
             </>
           );

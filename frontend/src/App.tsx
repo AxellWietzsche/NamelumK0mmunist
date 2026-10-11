@@ -918,7 +918,7 @@ class App extends Component<{}, AppState> {
             <div id={"lobby-player-area-container"}>
               <div id={"lobby-player-text-choose-container"}>
                 <p id={"lobby-player-count-text"}>
-                  Players ({this.state.usernames.length}/10)
+                  Oyunçular ({this.state.usernames.length}/10)
                 </p>
                 <button
                   id={"lobby-change-icon-button"}
