@@ -18,7 +18,7 @@ import p17 from "./player-portraits/player-portrait-17.svg";
 import p18 from "./player-portraits/player-portrait-18.svg";
 import p19 from "./player-portraits/player-portrait-19.svg";
 import p20 from "./player-portraits/player-portrait-20.svg";
-import my1 from "./player-portraits/mustachemark.svg";
+//import my1 from "./player-portraits/mustachemark.svg";
 import p_default from "./player-portraits/player-portrait-default.svg";
 import twitter_icon from "./twitter-icon.svg";
 import badge_img from "./badge.svg";
@@ -98,7 +98,7 @@ export const portraitsAltText: Record<string, string> = {
   p18: "A stranger with long bangs hiding half of their face.",
   p19: "A cat.",
   p20: "An unsettling stranger shadowed in darkness.",
-  my1: "A stranger with a mustache.",
+  //my1: "A stranger with a mustache.",
 };
 
 export const badge = badge_img;
