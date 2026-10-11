@@ -62,6 +62,7 @@ export const unlockedPortraits: string[] = [
   "p8",
   "p9",
   "p10",
+  "my1",
 ];
 export const lockedPortraits: string[] = [
   "p11",
