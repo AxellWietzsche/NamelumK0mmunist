@@ -45,7 +45,7 @@ const portraits: Record<string, string> = {
   p18,
   p19,
   p20,
-  my1,
+  //my1,
 };
 export default portraits;
 
