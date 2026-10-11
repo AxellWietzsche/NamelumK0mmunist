@@ -1436,10 +1436,10 @@ class App extends Component<{}, AppState> {
             headerAlt = "Fascist Victory, written in red with a skull icon.";
             messageClass = "highlight";
             if (fascistVictoryPolicy) {
-              victoryMessage = "Fascists successfully passed six policies!";
+              victoryMessage = "Faşistlər altı qanunu uğurla qəbul etdirdilər!";
             } else if (fascistVictoryElection) {
               victoryMessage =
-                "Fascists successfully elected Hitler as chancellor!";
+                "Faşistlər Hitleri uğurla kansler seçdirdilər!";
             }
           } else {
             players = liberalPlayers.concat(fascistPlayers);
@@ -1447,9 +1447,9 @@ class App extends Component<{}, AppState> {
             headerAlt = "Liberal Victory, written in blue with a dove icon.";
             messageClass = "highlight-blue";
             if (liberalVictoryPolicy) {
-              victoryMessage = "Liberals successfully passed five policies!";
+              victoryMessage = "Liberallar beş qanunu uğurla qəbul etdirdilər!";
             } else if (liberalVictoryExecution) {
-              victoryMessage = "Liberals successfully executed Hitler!";
+              victoryMessage = "Liberallar Hitleri uğurla edam etdilər!";
             }
           }
           if (DEBUG) {
