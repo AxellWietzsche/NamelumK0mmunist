@@ -1476,7 +1476,7 @@ class App extends Component<{}, AppState> {
                       </>
                     );
                   }}
-                  buttonText={"RETURN TO LOBBY"}
+                  buttonText={"LOBBIYƏ QAYIT"}
                   buttonOnClick={() => {
                     this.gameOver = false;
                     this.reconnectOnConnectionClosed = true;
