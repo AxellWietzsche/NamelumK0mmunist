@@ -19,6 +19,7 @@ import p18 from "./player-portraits/player-portrait-18.svg";
 import p19 from "./player-portraits/player-portrait-19.svg";
 import p20 from "./player-portraits/player-portrait-20.svg";
 import my1 from "./player-portraits/biglikisi.png";
+import my2 from "./player-portraits/mustachemark.png";
 import p_default from "./player-portraits/player-portrait-default.svg";
 import twitter_icon from "./twitter-icon.svg";
 import badge_img from "./badge.svg";
@@ -46,6 +47,7 @@ const portraits: Record<string, string> = {
   p19,
   p20,
   my1,
+  my2,
 };
 export default portraits;
 
@@ -63,6 +65,7 @@ export const unlockedPortraits: string[] = [
   "p9",
   "p10",
   "my1",
+  "my2",
 ];
 export const lockedPortraits: string[] = [
   "p11",
@@ -100,6 +103,7 @@ export const portraitsAltText: Record<string, string> = {
   p19: "A cat.",
   p20: "An unsettling stranger shadowed in darkness.",
   my1: "A stranger with a mustache.",
+  my2: "A stranger with a goatee.",
 };
 
 export const badge = badge_img;
