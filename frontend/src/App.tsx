@@ -757,10 +757,12 @@ class App extends Component<{}, AppState> {
             (Please be nice, they are trying their best.)
           </p>
         </AnnouncementBox>
+        */}
 
         <br />
         <LoginPageContent />
-        */}
+        
+        
       </div>
     );
   }
