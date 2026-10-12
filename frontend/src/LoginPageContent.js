@@ -21,12 +21,9 @@ class LoginPageContent extends Component {
     };
 
     render() {
-        let handleDragStart = (e) => e.preventDefault();
-        let items = [
-            <img id={"login-page-gif"} src={'https://i.postimg.cc/zvnLRbqq/place-policy.gif'} onDragStart={handleDragStart} alt={"A policy tile being placed on the board."}/>,
-            <img id={"login-page-gif"} src={'https://i.postimg.cc/Wbvqcn7z/show-policy.gif'} onDragStart={handleDragStart} alt={"An animated folder revealing a policy tile."}/>,
-            <img id={"login-page-gif"} src={'https://i.postimg.cc/cCNCZxw2/show-votes.gif'} onDragStart={handleDragStart} alt={"An animation showing all the cast votes."}/>
-        ];
+
+
+
         return (
             <>
                 <div id={"#login-page-description-container"}>
@@ -41,9 +38,10 @@ class LoginPageContent extends Component {
                             <br/><br/>
                         </p>
                     </div>
-                    <div id={"login-page-gif-container"}>
-                        {items}
-                    </div>
+
+
+
+
 
                 </div>
             </>

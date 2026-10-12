@@ -84,7 +84,7 @@ import { defaultPortrait } from "./assets";
 import Player from "./player/Player";
 import LoginPageContent from "./LoginPageContent";
 import Cookies from "js-cookie";
-import AnnouncementBox from "./util/AnnouncementBox";
+//import AnnouncementBox from "./util/AnnouncementBox";
 import {
   GameState,
   LobbyState,
@@ -734,6 +734,7 @@ class App extends Component<{}, AppState> {
           </button>
         </div>
         
+        {/*
         <AnnouncementBox>
           <h2>Announcing: BOTS!</h2>
           <p>
@@ -759,6 +760,7 @@ class App extends Component<{}, AppState> {
 
         <br />
         <LoginPageContent />
+        */}
       </div>
     );
   }
