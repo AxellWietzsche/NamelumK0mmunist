@@ -953,7 +953,7 @@ class App extends Component<{}, AppState> {
               <p id={"lobby-about-text"}>
                 <a
                   href={
-                    "https://github.com/ShrimpCryptid/Secret-Hitler-Online/blob/main/README.md"
+                    "https://github.com/AxellWietzsche/NamelumK0mmunist/blob/main/README.md"
                   }
                   target={"_blank"}
                   rel="noopener noreferrer"
@@ -966,7 +966,7 @@ class App extends Component<{}, AppState> {
                 You can report bugs on the{" "}
                 <a
                   href={
-                    "https://github.com/ShrimpCryptid/Secret-Hitler-Online/issues"
+                    "https://github.com/AxellWietzsche/NamelumK0mmunist/issues"
                   }
                   rel="noopener noreferrer"
                   target={"_blank"}
