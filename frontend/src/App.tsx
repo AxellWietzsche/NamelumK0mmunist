@@ -762,7 +762,7 @@ class App extends Component<{}, AppState> {
         <br />
         <LoginPageContent />
         
-        
+
       </div>
     );
   }
@@ -947,6 +947,8 @@ class App extends Component<{}, AppState> {
               <button onClick={this.onClickLeaveLobby}>LOBBİDƏN ÇIX</button>
             </div>
 
+{/*            
+
             <div id={"lobby-text-container"}>
               <p id={"lobby-about-text"}>
                 <a
@@ -973,6 +975,9 @@ class App extends Component<{}, AppState> {
                 </a>
               </p>
             </div>
+
+*/}
+
 
           </div>
         </div>
