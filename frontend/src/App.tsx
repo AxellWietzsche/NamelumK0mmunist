@@ -1248,7 +1248,7 @@ class App extends Component<{}, AppState> {
           this.queueEventUpdate("PREZIDENTLİK SƏLAHİYYƏTİ");
           if (isPresident) {
             if (!newState.peek) {
-              throw new Error("Peek policies not found.");
+              throw new Error("Baxılacaq qanunlar tapılmadı.");
             }
             this.queueAlert(
               <PeekPrompt
@@ -1259,26 +1259,26 @@ class App extends Component<{}, AppState> {
             );
           } else {
             this.queueStatusMessage(
-              "Peek: President is previewing the next 3 policies."
+              "Önbaxış: Prezident növbəti 3 qanunu ön izləyir."
             );
           }
           break;
 
         case STATE_PP_ELECTION:
-          this.queueEventUpdate("PRESIDENTIAL POWER");
+          this.queueEventUpdate("PREZIDENT SƏLAHİYYƏTİ");
           if (isPresident) {
             this.queueAlert(
               SelectSpecialElectionPrompt(name, newState, this.sendWSCommand)
             );
           } else {
             this.queueStatusMessage(
-              "Special Election: President is choosing the next president."
+              "Növbədənkənar Seçki: Cari prezident növbəti prezidenti seçir."
             );
           }
           break;
 
         case STATE_PP_EXECUTION:
-          this.queueEventUpdate("PRESIDENTIAL POWER");
+          this.queueEventUpdate("PREZIDENT SƏLAHİYYƏTİ");
           if (isPresident) {
             this.queueAlert(
               SelectExecutionPrompt(name, newState, this.sendWSCommand),
@@ -1286,20 +1286,20 @@ class App extends Component<{}, AppState> {
             );
           } else {
             this.queueStatusMessage(
-              "Execution: President is choosing a player to execute."
+              "Edam: Prezident edam ediləcək oyunçunu seçir."
             );
           }
           break;
 
         case STATE_PP_INVESTIGATE:
-          this.queueEventUpdate("PRESIDENTIAL POWER");
+          this.queueEventUpdate("PREZIDENT SƏLAHİYYƏTİ");
           if (isPresident) {
             this.queueAlert(
               SelectInvestigationPrompt(name, newState, this.sendWSCommand)
             );
           } else {
             this.queueStatusMessage(
-              "Investigation: President is choosing a player to investigate."
+              "Araşdırma: Prezident araşdırılacaq oyunçunu seçir."
             );
           }
           break;
@@ -1309,16 +1309,15 @@ class App extends Component<{}, AppState> {
           switch (newState.lastState) {
             case STATE_PP_ELECTION:
               if (!isPresident) {
-                console.log("Special Election Alert: " + newState.targetUser);
+                console.log("Növbədənkənar Seçki Xəbərdarlığı: " + newState.targetUser);
                 this.queueAlert(
                   <ButtonPrompt
-                    label={"SPECIAL ELECTION"}
+                    label={"NÖVBƏDƏNKƏNAR SEÇKİ"}
                     footerText={
                       newState[PARAM_PRESIDENT] +
-                      " has chosen " +
+                      " növbəti prezidenti seçdi: " +
                       newState.targetUser +
-                      " to be the next president." +
-                      "\nThe normal presidential order will resume after the next round."
+                      "\nNövbəti raunddan sonra adi prezidentlik qaydası bərpa olunacaq."
                     }
                     buttonText={"OKEI"}
                     buttonOnClick={this.hideAlertAndFinish}
@@ -1342,11 +1341,11 @@ class App extends Component<{}, AppState> {
               if (!isPresident) {
                 let isTarget = newState.targetUser === name;
                 let footerText = isTarget
-                  ? `You have been investigated by ${newState[PARAM_PRESIDENT]}. The president now knows your party affiliation.`
-                  : `${newState.targetUser} has been investigated by ${newState[PARAM_PRESIDENT]}. The president now knows their party affiliation.`;
+                  ? `Barəndə ${newState[PARAM_PRESIDENT]} tərəfindən araşdırma aparılıb. Prezident indi sənin partiya mənsubluğunu bilir.`
+                  : `${newState.targetUser}, ${newState[PARAM_PRESIDENT]} tərəfindən araşdırılıb. Prezident artıq onun hansı partiyaya mənsub olduğunu bilir.`;
                 this.queueAlert(
                   <ButtonPrompt
-                    label={"INVESTIGATION RESULTS"}
+                    label={"ARAŞDIRMA NƏTİCƏLƏRİ"}
                     // If target: You have been investigated by [President Name].
                     //            The president now knows your party affiliation.
                     // If not target: [Target Name] has been investigated by [President Name].
