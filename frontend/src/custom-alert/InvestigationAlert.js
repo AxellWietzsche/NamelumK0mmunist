@@ -42,14 +42,13 @@ class InvestigationAlert extends Component {
       : "investigation-container-default";
     return (
       <ButtonPrompt
-        label={"INVESTIGATION RESULTS"}
+        label={"ARAŞDIRMA NƏTİCƏLƏRİ"}
         renderFooter={() => {
           return (
             <p id="investigation-text" className={footerClass}>
               {this.props.target +
-                " is a member of the " +
                 this.props.party +
-                " party."}
+                " partiyasına üzvdür."}
             </p>
           );
         }}

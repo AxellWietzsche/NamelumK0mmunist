@@ -1316,7 +1316,7 @@ class App extends Component<{}, AppState> {
                     footerText={
                       newState[PARAM_PRESIDENT] +
                       " növbəti prezidenti seçdi: " +
-                      newState.targetUser +
+                      newState.targetUser + "." +
                       "\nNövbəti raunddan sonra adi prezidentlik qaydası bərpa olunacaq."
                     }
                     buttonText={"OKEI"}
