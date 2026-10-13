@@ -46,7 +46,7 @@ class InvestigationAlert extends Component {
         renderFooter={() => {
           return (
             <p id="investigation-text" className={footerClass}>
-              {this.props.target +
+              {this.props.target + " " +
                 this.props.party +
                 " partiyasına üzvdür."}
             </p>
