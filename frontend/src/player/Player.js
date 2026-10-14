@@ -208,7 +208,7 @@ class Player extends Component {
                          alignVertWithFlexbox={true}
                          throttle={1000}
                 >
-                    {this.props.name}
+                    {this.props.name + (this.props.highlight ? " (sən)" : "")}
                 </Textfit>
 
                 <p  id="player-disabled-label"
