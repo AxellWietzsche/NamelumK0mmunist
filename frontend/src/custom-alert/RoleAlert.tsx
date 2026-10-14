@@ -119,8 +119,8 @@ class RoleAlert extends Component<RoleAlertProps> {
             {this.props.role === Role.FASCIST
               ? "FAŞIST"
               : this.props.role === Role.HITLER
-              ? "HITLER"
-              : "LIBERAL"} 
+              ? "LIBERAL"
+              : "HITLER"} 
 
 
 

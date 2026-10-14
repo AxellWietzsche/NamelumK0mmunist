@@ -59,6 +59,11 @@
     user-select: none
 }
 
+#player-name.highlight {
+    color: var(--buttonShadowFill);
+    font-weight: bold;
+}
+
 #player-name.darken {
     color: var(--textShadowed);
 }

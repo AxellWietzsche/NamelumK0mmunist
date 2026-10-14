@@ -58,6 +58,13 @@ class Player extends Component {
     capitalizeFirstOnly(text) {
         return text.charAt(0).toUpperCase() + text.toLowerCase().substr(1);
     }
+    
+    getRoleName() {
+        if (this.props.role === FASCIST) {
+            return "Faşist";
+        }
+        return this.capitalizeFirstOnly(this.props.role);
+    }
 
     /**
      * Changes the className based on the role (so that liberals can have blue text coloring).
@@ -116,7 +123,7 @@ class Player extends Component {
      */
     getAltText() {
         if (this.props.showRole) {
-            return this.getNameWithYouTag() + this.capitalizeFirstOnly(this.props.role);
+            return this.getNameWithYouTag() + this.getRoleName();
         } else {
             return this.getNameWithYouTag();
         }
@@ -156,7 +163,7 @@ class Player extends Component {
                     <p id="player-identity-label"
                        className={this.getRoleClass() + this.getClassName() + " force-update"}
                     >
-                        {this.capitalizeFirstOnly(this.props.role)}
+                        {this.getRoleName()}
                     </p>
                 </>
         }
@@ -195,7 +202,7 @@ class Player extends Component {
                 {identity_components}
 
                 <Textfit id={"player-name"}
-                         className={this.getClassName() + " force-update"}
+                         className={this.getClassName() + this.getHighlight() + " force-update"}
                          mode="multi"
                          forceSingleModeWidth={false}
                          alignVertWithFlexbox={true}
