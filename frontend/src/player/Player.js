@@ -229,7 +229,7 @@ Player.defaultProps = {
     role: "FASCIST",
     showRole: true,
     disabled: false,
-    disabledText: "EXECUTED",
+    disabledText: "EDAM EDILDI",
     useAsButton: false,
     isSelected: false,
     onClick: () => {},

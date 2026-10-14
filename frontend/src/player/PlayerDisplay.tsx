@@ -85,11 +85,11 @@ export const DISABLE_TERM_LIMITED_PLAYERS = (
   }
 
   if (!gameState.players[name].alive) {
-    return "EXECUTED";
+    return "EDAM EDILDI";
   } else if (gameState.lastChancellor === name) {
-    return "TERM LIMITED";
+    return "SEÇİM MƏHDUDİYYLİ";
   } else if (gameState.lastPresident === name && livingPlayers > 5) {
-    return "TERM LIMITED";
+    return "SEÇİM MƏHDUDİYYLİ";
   } else {
     return "";
   }
