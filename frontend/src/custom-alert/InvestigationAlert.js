@@ -30,8 +30,9 @@ class InvestigationAlert extends Component {
   }
 
   render() {
+    const partyName = this.props.party === LIBERAL ? "Liberal" : "Faşist";
     let alt =
-      this.props.target + " is a member of the " + this.props.party + " party.";
+      this.props.target + " " + partyName + " partiyasına üzvdür.";
     let cardFrontSrc =
       this.props.party === LIBERAL ? PartyLiberal : PartyFascist;
     let footerClass = this.state.showText
@@ -46,8 +47,9 @@ class InvestigationAlert extends Component {
         renderFooter={() => {
           return (
             <p id="investigation-text" className={footerClass}>
-              {this.props.target + " " +
-                this.props.party +
+              {this.props.target +
+                " " +
+                partyName +
                 " partiyasına üzvdür."}
             </p>
           );
