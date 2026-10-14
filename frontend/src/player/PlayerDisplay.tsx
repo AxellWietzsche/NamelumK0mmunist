@@ -37,7 +37,7 @@ export const DISABLE_EXECUTED_PLAYERS = (
   gameState: GameState
 ) => {
   if (!gameState.players[name].alive) {
-    return "EXECUTED";
+    return "EDAM EDILDI";
   }
   return "";
 };
@@ -55,9 +55,9 @@ export const DISABLE_INVESTIGATED_PLAYERS = (
   gameState: GameState
 ) => {
   if (!gameState.players[name].alive) {
-    return "EXECUTED";
+    return "EDAM EDILDI";
   } else if (gameState.players[name].investigated) {
-    return "SEARCHED";
+    return "ARAŞDIRILDI";
   }
   return "";
 };
