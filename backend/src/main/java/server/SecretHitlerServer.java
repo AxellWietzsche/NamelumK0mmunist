@@ -519,6 +519,12 @@ public class SecretHitlerServer {
             ctx.session.close(StatusCode.PROTOCOL, "Lobby and name must be specified.");
         }
 
+        String forwarded = ctx.header("X-Forwarded-For");
+        String ip = (forwarded != null && !forwarded.isBlank())
+                ? forwarded.split(",")[0].trim()
+                : String.valueOf(ctx.session.getRemoteAddress());
+        logger.info("CONNECT name='" + name + "' lobby='" + code + "' ip=" + ip);
+
         logger.debug("Attempting to connect user '" + name + "' to lobby '" + code + "': ");
         if (!codeToLobby.containsKey(code)) { // the lobby does not exist.
             logger.debug("FAILED (The lobby does not exist)");
