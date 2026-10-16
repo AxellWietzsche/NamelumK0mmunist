@@ -84,7 +84,7 @@
        y2="32.815" /></defs><path
      fill="#fcfcfc"
      d="M 0,0 H 215.9 V 279.4 H 0 Z"
-     style="display:inline;paint-order:markers fill stroke"
+     style="display:none;paint-order:markers fill stroke"
      transform="translate(-74.615,-76.963)"
      id="path1" /><g
      style="display:inline"
