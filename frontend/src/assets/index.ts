@@ -21,7 +21,7 @@ import p20 from "./player-portraits/player-portrait-20.svg";
 import my1 from "./player-portraits/biglikisi.png";
 import my2 from "./player-portraits/mmtestis2omg.svg";
 import my3 from "./player-portraits/gooseleftisomg.svg";
-import my4 from "./player-portraits/gooseright1isomg.svg";
+import my4 from "./player-portraits/gooserightis1omg.svg";
 
 import p_default from "./player-portraits/player-portrait-default.svg";
 import twitter_icon from "./twitter-icon.svg";
