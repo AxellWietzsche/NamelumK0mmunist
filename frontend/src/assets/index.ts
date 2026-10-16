@@ -20,6 +20,7 @@ import p19 from "./player-portraits/player-portrait-19.svg";
 import p20 from "./player-portraits/player-portrait-20.svg";
 import my1 from "./player-portraits/biglikisi.png";
 import my2 from "./player-portraits/mmtestis2omg.svg";
+import my3 from "./player-portraits/gooseleftisomg.svg";
 import p_default from "./player-portraits/player-portrait-default.svg";
 import twitter_icon from "./twitter-icon.svg";
 import badge_img from "./badge.svg";
@@ -48,6 +49,7 @@ const portraits: Record<string, string> = {
   p20,
   my1,
   my2,
+  my3
 };
 export default portraits;
 
@@ -79,6 +81,7 @@ export const portraitsAltText: Record<string, string> = {
   p20: "An unsettling stranger shadowed in darkness.",
   my1: "A stranger with a mustache.",
   my2: "A stranger with a goatee.",
+  my3: "A goose with a killing tendency."
 };
 
 export const badge = badge_img;
