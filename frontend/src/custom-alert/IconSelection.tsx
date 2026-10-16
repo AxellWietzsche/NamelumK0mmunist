@@ -88,7 +88,7 @@ class IconSelection extends Component<IconSelectionProps> {
         renderHeader={() => {
           return (
             <>
-              <p>Görünüş seç, sonra təsdiqlə.</p>
+              <p>Görünüş seç, sonra təsdiqlə.(Mənim ikonumu seçmə, öz ikonunun əlavə edilməsini istəsən dm)</p>
               {this.getIconButtonHML(allPortraits)}
             </>
           );
