@@ -19,7 +19,7 @@ import p18 from "./player-portraits/player-portrait-18.svg";
 import p19 from "./player-portraits/player-portrait-19.svg";
 import p20 from "./player-portraits/player-portrait-20.svg";
 import my1 from "./player-portraits/biglikisi.png";
-import my2 from "./player-portraits/mmtestis1.svg";
+import my2 from "./player-portraits/mmtestis2omg.svg";
 import p_default from "./player-portraits/player-portrait-default.svg";
 import twitter_icon from "./twitter-icon.svg";
 import badge_img from "./badge.svg";

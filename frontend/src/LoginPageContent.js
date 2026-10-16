@@ -28,7 +28,7 @@ class LoginPageContent extends Component {
             <>
                 <div id={"#login-page-description-container"}>
                     <div id={"login-page-description-text-container"}>
-                        <h2 id={"login-page-description-text-header"}>What is Secret Hitler Online?</h2>
+                        <h2 id={"login-page-description-text-header"}>Naməlum Kommunist nədir?</h2>
                         <p id={"login-page-description-text"}>
                             Secret Hitler Online is an adaptation of the original Secret Hitler board game,
                             reimagined for the web.
