@@ -30,13 +30,20 @@ class LoginPageContent extends Component {
                     <div id={"login-page-description-text-container"}>
                         <h2 id={"login-page-description-text-header"}>Naməlum Kommunist nədir?</h2>
                         <p id={"login-page-description-text"}>
-                            Secret Hitler Online is an adaptation of the original Secret Hitler board game,
-                            reimagined for the web.
-                            
-                            It supports up to 10 players, featuring smooth art and animations with all the secrecy and
-                            intrigue of the original. It's designed to be easy to pick up and play for any quarantine
-                            game night.<br/><br/>Play for free in your browser, with no ads ever!
-                            <br/><br/>
+                            Naməlum Kommunist Secret Hitler masaüstü oyunundan adaptasiya olunmuş formasıdır. 
+                            Oyun minimum 5, maksimum 10 oyunçu ilə oyanır, 5-dən az olduqda botlarla oynamaq olar.
+
+                            <br/><br/>Oyunun Məqsədi: Liberal oyunçular 5 liberal qanun keçirməklə 
+                            və ya Hitleri tapıb edam etməklə qazanır. 
+                            Faşistlər isə 6 faşist qanun keçirməklə 
+                            və ya 3-cü faşist qanunun keçirildikdən sonra Hitlerin kansler seçilməsiylə qazanır.
+
+                            <br/><br/>Necə Oynanır: Hər turda bir pyunçu Prezident seçilir və öz hökuməti üçün Kanslerin seçir.
+                            Oyunçular hökuməti qəbul edib-etmədikləri üçün səs verir. 
+                            Əgər hökumət səs çoxluğu ilə qəbul edilərsə, Prezident qanunların olduğu dəstədən 3 qanun kartı çəkir, 
+                            birini ləğv etməyi seçir və qalan ikisini Kanslerə göndərir,
+                            Kansler də 2 qanunun arasından birini qüvvəyə mindirir.
+                            <br/><br/> Test 1 2 3
                         </p>
                     </div>
 
