@@ -36,13 +36,14 @@ class LoginPageContent extends Component {
                             <br/><br/>Oyunun Məqsədi: Liberal oyunçular 5 liberal qanun keçirməklə 
                             və ya Hitleri tapıb edam etməklə qazanır. 
                             Faşistlər isə 6 faşist qanun keçirməklə 
-                            və ya 3-cü faşist qanunun keçirildikdən sonra Hitlerin kansler seçilməsiylə qazanır.
+                            və ya 3-cü faşist qanunu keçirildikdən sonra Hitlerin kansler seçilməsiylə qazanır.
 
-                            <br/><br/>Necə Oynanır: Hər turda bir pyunçu Prezident seçilir və öz hökuməti üçün Kanslerin seçir.
-                            Oyunçular hökuməti qəbul edib-etmədikləri üçün səs verir. 
-                            Əgər hökumət səs çoxluğu ilə qəbul edilərsə, Prezident qanunların olduğu dəstədən 3 qanun kartı çəkir, 
-                            birini ləğv etməyi seçir və qalan ikisini Kanslerə göndərir,
-                            Kansler də 2 qanunun arasından birini qüvvəyə mindirir.
+                            <br/><br/>Necə Oynanır: Hər turda bir pyunçu Prezident seçilir və öz hökuməti üçün 
+                            oyunçulardan birini Kansler seçir. Oyunçular hökuməti qəbul edib-etmədikləri üçün 
+                            səs verir. Əgər hökumət səs çoxluğu ilə qəbul edilərsə, Prezident qanunların olduğu 
+                            dəstədən 3 qanun kartı çəkir, birini ləğv etməyi seçir və qalan ikisini Kanslerə 
+                            göndərir, Kansler də 2 qanunun arasından birini tətbiq edir.
+
                             <br/><br/> Tips: Liberallar Hitler olduğunu düşündükləri oyunçunun 3-cü faşist qanunu tətbiq edildikdən 
                             sonra kansler seçilməməsi üçün hökümətə etiraz edə bilərlər. Hitler isə kansler seçilmək üçün özünü 
                             gizlədə bilər. Faşistlər isə Hitlerin kansler seçilə bilməsi üçün digər oyunçuları şübhə altına sala bilər. 
