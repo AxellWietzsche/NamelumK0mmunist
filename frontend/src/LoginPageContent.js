@@ -30,7 +30,7 @@ class LoginPageContent extends Component {
                     <div id={"login-page-description-text-container"}>
                         <h2 id={"login-page-description-text-header"}>Naməlum Kommunist nədir?</h2>
                         <p id={"login-page-description-text"}>
-                            Naməlum Kommunist Secret Hitler masaüstü oyunundan adaptasiya olunmuş formasıdır. 
+                            "Naməlum Kommunist", "Secret Hitler" masaüstü oyununun adaptasiya olunmuş formasıdır. 
                             Oyun minimum 5, maksimum 10 oyunçu ilə oyanır, 5-dən az olduqda botlarla oynamaq olar.
 
                             <br/><br/>Oyunun Məqsədi: Liberal oyunçular 5 liberal qanun keçirməklə 
@@ -43,7 +43,10 @@ class LoginPageContent extends Component {
                             Əgər hökumət səs çoxluğu ilə qəbul edilərsə, Prezident qanunların olduğu dəstədən 3 qanun kartı çəkir, 
                             birini ləğv etməyi seçir və qalan ikisini Kanslerə göndərir,
                             Kansler də 2 qanunun arasından birini qüvvəyə mindirir.
-                            <br/><br/> Test 1 2 3
+                            <br/><br/> Tips: Liberallar Hitler olduğunu düşündükləri oyunçunun 3-cü faşist qanunu tətbiq edildikdən 
+                            sonra kansler seçilməməsi üçün hökümətə etiraz edə bilərlər. Hitler isə kansler seçilmək üçün özünü 
+                            gizlədə bilər. Faşistlər isə Hitlerin kansler seçilə bilməsi üçün digər oyunçuları şübhə altına sala bilər. 
+
                         </p>
                     </div>
 
