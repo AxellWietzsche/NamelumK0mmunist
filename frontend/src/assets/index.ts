@@ -23,6 +23,8 @@ import my2 from "./player-portraits/mmtestis2omg.svg";
 import my3 from "./player-portraits/gooseleftisomg.svg";
 import my4 from "./player-portraits/gooserightis1omg.svg";
 import my5 from "./player-portraits/leylaomg.svg";
+import my6 from "./player-portraits/magnaromg.svg";
+
 
 import p_default from "./player-portraits/player-portrait-default.svg";
 import twitter_icon from "./twitter-icon.svg";
@@ -54,7 +56,8 @@ const portraits: Record<string, string> = {
   my2,
   my3,
   my4,
-  my5
+  my5,
+  my6
 };
 export default portraits;
 
@@ -88,7 +91,8 @@ export const portraitsAltText: Record<string, string> = {
   my2: "A stranger with a goatee.",
   my3: "A goose with a killing tendency, looking at left.",
   my4: "A goose with a killing tendency, looking at right.",
-  my5: "A stranger with a distinctive hairstyle."
+  my5: "A stranger with a distinctive hairstyle.",
+  my6: "A stranger with a distinctive hairstyle."
 };
 
 export const badge = badge_img;
