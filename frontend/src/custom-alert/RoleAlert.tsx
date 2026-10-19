@@ -117,7 +117,7 @@ class RoleAlert extends Component<RoleAlertProps> {
           <h2 id="alert-header" className={"left-align"}>
             SƏNIN ROLUN: {" "}
             {this.props.role === Role.FASCIST
-              ? "FAŞIST"
+              ? "FASCIST"
               : this.props.role === Role.HITLER
               ? "LIBERAL"
               : "HITLER"} 
